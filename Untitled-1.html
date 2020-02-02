@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<b/body>
+
+    <script>
+        function myFunction(){
+            // document.getElementById("demo").innerHTML="段落被更改。";
+            document.getElementById('1').style.display = "block";
+            
+            setTimeout(function(){
+                if (document.getElementById('1').style.display == "block"){
+                    document.getElementById('1').style.display = "none"
+                }
+            },1000)
+            
+        }
+        function a(){
+            var audio = document.getElementById('a1'); 
+            audio.play()
+        }
+    </script>
+<!-- <audio src="格劳克斯_戳一下.wav" controls="controls" preload id="music"   hidden> </audio>
+<button id="a" onclick="a();">播放/暂停</button> -->
+<audio id="a1">
+    <source src="格劳克斯_戳一下.wav"></audio>
+
+<style>
+    img.eg1:hover {transform:scale(1.1);transition: all 1.5s;}
+    
+</style>
+<head>
+<title>cs demo</title>
+</head>
+<body style="background-color:black">
+<img src="item_rhodes.png" style="left: 0px;top: 0px;width:500px;height:500px"/>
+<!-- <div style="left: -100px; position: fixed;top: 400px;">
+    <img src="格劳克斯模型relax.gif" width="500" height="500" /></div> -->
+
+<button id="a" style="background:url(格劳克斯模型relax.gif) no-repeat;
+               background-size:500px 500px;
+               width: 500px;
+               height: 500px;
+               border: 0;
+               position: fixed;
+               left: -100px; 
+               top: 425px;
+               outline-style: none;
+               cursor: pointer"
+               onclick="a();myFunction()"></button>
+<img src='格劳克斯模型interactbg.gif' id="1" style="display:none;width:500px;height:500px;position: fixed;left: -100px;top: 425px"> 
+<div style="left: 300px; position: absolute; top: 0px;">
+    <img src="立绘_格劳克斯_2.png" width="1280" height="1280" /></div>
+<p1 style="font-family:verdana;color:white;font-size:160px;position:fixed;left: 0px;top: 0px"><b>Glaucus</b></p1>
+<br>
+<p2 style="color:white;font-size:25px"><div style="left: 50px; position: fixed; top: 210px;"><b>
+    Glaucus is a genus of small blue pelagic <br />
+    sea slugs. They are aeolid nudibranchs, <br />
+    ranging in size from 20 to 40 mm. They <br />
+    feed on colonial cnidarians such as Por-<br />
+    tuguese man o' wars, blue buttons, and <br />
+    purple sails. They can produce painful <br />
+    and potentially dangerous stings when <br />
+    handled, as they store the venomous <br />
+    nematocysts of their prey. Glaucus is the <br />
+    only genus in the family Glaucidae. It <br />
+    includes five species.</b> (Wikipedia)</div></p2>
+<p3 style="font-family:verdana;color:white;font-size:30px;position:fixed;left: 250px;top: 675px">
+    Author: <a href="https://www.weibo.com/p/1005052156631357/home?from=page_100505&mod=TAB&is_hot=1#_rnd1580441860276" 
+               target="_blank"
+               style="text-decoration: none;color:white">下野宏铭</a></p3>
+<p4 style="font-family:verdana;font-size:30px;position:fixed;left: 250px;top: 750px">
+    <a href="https://ja.wikipedia.org/wiki/%E9%87%8E%E4%B8%AD%E8%97%8D" target="_blank">
+        <div style="color:white;float:left">Cast: 野中&nbsp;</div><div style="color:dodgerblue;float:left">藍</div></a></p4>
+
+
+<div style="left: 600px; position: absolute; top: 1050px;" title="Prototype">
+    <a href="https://en.wikipedia.org/wiki/Glaucus_(gastropod)" target="_blank">
+        <img class="eg1" src="prototype.jpg" width="240" height="180"/></a></div>
+<div style="left: 900px; position: absolute; top: 1050px;" title="Myth">
+    <a href="https://en.wikipedia.org/wiki/Glaucus" target="_blank">
+        <img class="eg1" src="myth.jpg" width="240" height="180" /></a></div>
+<div style="left: 1200px; position: absolute; top: 1050px;" title="arknights.global">
+    <a href="https://www.arknights.global/" target="_blank">
+        <img class="eg1" src="arknights.png" width="240" height="180" /></a></div>
+</body>
+</html>
+
+<!-- rgb(104, 157, 255) -->
+<!-- rgb(49, 87, 192) -->
